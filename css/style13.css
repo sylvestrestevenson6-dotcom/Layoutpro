@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    gap: 10px;
+
+}
+
+.col1 {
+width: 500px;
+    padding: 90px;
+    height: 453px;
+    background-color: yellow;
+    margin-right: 10px;
+}
+
+.boxes {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.up {
+    width: 580px;
+    height: 224px;
+    padding: 43px;
+    background-color: blue;
+
+}
+.down {
+     width: 580px;
+    height: 224px;
+    padding: 43px;
+background-color: rgb(116, 113, 113);
+}

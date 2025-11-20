@@ -1,0 +1,73 @@
+.container {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+
+}
+
+.header {
+    background: gold;
+    height: 140px;
+    border: 1px black solid;
+    padding: 15px;
+
+}
+
+.pink-boxes {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+
+
+}
+
+
+
+.pink1,
+.pink2,
+.pink3,
+.pink4 {
+    border: black 1px solid;
+}
+
+
+.middle {
+    display: flex;
+    gap: 10px;
+
+}
+
+.box {
+    width: 80px;
+    height: 40px;
+    background: hotpink;
+
+
+}
+
+
+.aside {
+    background: #cfcfcf;
+    flex-grow: 1;
+    border: 1px black solid;
+
+}
+
+.main {
+    background-color: rgb(60, 235, 60);
+    flex-grow: 6;
+    height: 140px;
+    border: 1px black solid;
+}
+
+.footer {
+    background-color: deepskyblue;
+    height: 140px;
+    border: 1px black solid;
+    text-align: left;
+    padding: 15px;
+}

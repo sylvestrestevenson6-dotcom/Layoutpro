@@ -1,0 +1,47 @@
+
+
+.container {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+    text-align: center;
+
+}
+
+.header {
+    background: gold;
+    height: 190px;
+    border: 1px black solid;
+    padding: 15px;
+
+}
+
+.middle {
+    display: flex;
+    gap: 10px;
+
+}
+
+.aside {
+    background: #cfcfcf;
+    flex-grow: 1;
+      border: 1px black solid;
+
+}
+
+.main {
+background-color: rgb(60, 235, 60);
+    flex-grow: 6;
+    height: 190px;
+       border: 1px black solid;
+}
+
+.footer {
+    background-color: deepskyblue;
+    height: 190px;
+       border: 1px black solid;
+       text-align: left;
+          padding: 15px;
+}

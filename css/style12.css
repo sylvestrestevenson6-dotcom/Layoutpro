@@ -1,0 +1,36 @@
+body {
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px;
+    gap: 20px;
+
+}
+
+.box {
+    padding: 70px;
+    height: 500px;
+    margin-bottom: 20px; 
+    display: flex;
+    width:98%;
+
+}
+
+header {
+    background-color: gold;
+    border: 2px solid black
+}
+
+main {
+    background-color: rgb(68, 67, 67);
+    border: 2px black solid;
+}
+
+footer {
+    background-color: turquoise;
+    border: 2px black solid
+}
